@@ -561,7 +561,7 @@ footer .nav-container .contact-us a {
 /* Footer end */
 
 /** Media queries  */
-@media screen and (max-width: 820px){
+@media screen and (max-width:912px){
     
     nav .menu-container ul{
         display: flex;
@@ -644,7 +644,7 @@ footer .nav-container .contact-us a {
     }
 
     section.testimonials .cards-container .card {
-        width: 500px;
+        width: 100%;
         padding: 20px;
         display: flex;
         flex-direction: column;
