@@ -5,10 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .full-container {
     display: flex;
     justify-content: center;
