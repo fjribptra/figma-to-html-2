@@ -9,13 +9,28 @@ body {
     overflow-x: hidden;
 }
 
+.full-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    /* border-left: 2px solid black;
+    border-right: 2px solid black; */
+    background-color: white;
+}
+
 /* Navbar */
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 10px 20px;
+    padding: 20px 30px;
     box-shadow: 0px 0px 2px 2px rgb(182, 180, 180) ;
     font-weight: bold;
 }
@@ -328,6 +343,11 @@ section.available-course {
     align-items: start;
     gap: 30px;
 }
+/* 
+section.available-course .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+} */
 
 section.available-course .courses .course-card {
     width: 230px;
@@ -561,6 +581,45 @@ footer .nav-container .contact-us a {
 /* Footer end */
 
 /** Media queries  */
+@media screen and (max-width:1200px) {
+    section.available-course .courses .course-card {
+        width: 200px;
+    }
+
+    section.available-course .courses .course-card .image-container img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    section.available-course {
+        padding: 40px 110px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    section.available-course .courses {
+        width: 100%;
+    }
+    section.available-course .available-for-you {
+        width: 100%;
+    }
+
+    section.available-course .courses .course-card {
+        width: 250px;
+    }
+    
+    section.available-course .courses .course-card .image-container img {
+        width: 250px;
+    }
+    section.selected-course .text-container .statistics {
+        width: 90%;
+    }
+} 
+
 @media screen and (max-width:912px){
     
     nav .menu-container ul{
@@ -626,14 +685,13 @@ footer .nav-container .contact-us a {
         text-align: center;
     }
 
-    section.available-course {
-        padding: 40px 30px;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        gap: 30px;
+     section.available-course .courses .course-card {
+        width: 300px;
     }
     
+    section.available-course .courses .course-card .image-container img {
+        width: 300px;
+    }
 
     section.testimonials .cards-container {
         display: flex;
