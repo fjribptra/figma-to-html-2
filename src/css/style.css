@@ -616,111 +616,6 @@ footer .nav-container .contact-us a {
     }
 } 
 
-@media screen and (max-width:912px){
-    
-    nav .menu-container ul{
-        display: flex;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 11px;
-    }
-
-    nav .login-register-container {
-        width: 30%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    nav .login-register-container a {
-        padding: 5px 10px;
-        text-decoration: none;
-        border-radius: 4.12px;
-        -webkit-border-radius: 4.12px;
-        -moz-border-radius: 4.12px;
-        -ms-border-radius: 4.12px;
-        -o-border-radius: 4.12px;
-    }
-    
-    nav .login-register-container a.login-button {
-        border: 2px solid #545BE8;
-        color: #545BE8;
-    }
-
-    section.hero-section {
-        padding: 40px 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-
-    section.what-we-give-section {
-        width: 100%;
-        padding: 40px 60px 40px 20px;
-        display: flex;
-        justify-content: end;
-        align-items: start;
-        gap: 20px;
-    
-    }
-
-    section.selected-course {
-        padding: 40px 30px;
-        display: flex;
-        justify-content: space-around;
-        gap: 50px;
-    }
-
-    section.selected-course .text-container .statistics {
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-        text-align: center;
-    }
-
-     section.available-course .courses .course-card {
-        width: 300px;
-    }
-    
-    section.available-course .courses .course-card .image-container img {
-        width: 300px;
-    }
-
-    section.testimonials .cards-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-
-    section.testimonials .cards-container .card {
-        width: 100%;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        gap: 20px;
-        box-shadow: 9px 10px 41px -6px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 9px 10px 41px -6px rgba(0,0,0,0.75);
-        -moz-box-shadow: 9px 10px 41px -6px rgba(0,0,0,0.75);
-    }
-
-    footer {
-        width: 100%;
-        padding: 40px 20px;
-        background-color: #393E46;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-}
-
 .warning {
     display: none;
     width: 100%;
@@ -733,7 +628,7 @@ footer .nav-container .contact-us a {
     font-weight: 900;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 1199px){
     .full-container {
         display: none;
     }
